@@ -1,0 +1,21 @@
+s19241, Nuraiza Maruf kyzy
+Pro Homework
+1 First I created a fork of https://github.com/squadack/epg1_git just by clicking to the upper right button 'fork'
+2 Then cloned it to my desktop by command 
+git clone https://github.com/Nuraiza/epg1_git.git
+3 Created my branch by command 
+git checkout -b hw-s19241
+4 Rebased rebase-me branch on top of my branch
+git checkout rebase-me
+git rebase hw-s19241
+5 Fast-forwarded my branch to the tip of rebase-me
+git checkout hw-s19241
+git merge rebase-me
+6 Merged branch merge-me into my branch
+git checkout hw-s19241
+git merge origin/merge-me
+Then there appeared conflict in Readme.md during merging
+git status
+I simply resolved conflict in text editor then committed changes
+git commit -m "resolved conflict"
+
